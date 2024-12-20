@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: crud-demo
+  data-source:
+    url: jdbc:mysql://localhost:3306/employee_directory
+    username: springstudent
+    password: springstudent
+
+server:
+  port: 8085
+  servlet:
+    context-path: '/api'
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.orm.jdbc.bind: trace
