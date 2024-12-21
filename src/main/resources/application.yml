@@ -5,6 +5,12 @@ spring:
     url: jdbc:mysql://localhost:3306/employee_directory
     username: springstudent
     password: springstudent
+  threads:
+    virtual:
+      enabled: true
+#  data:
+#    rest:
+#      basePath: '/apex'
 
 server:
   port: 8085
