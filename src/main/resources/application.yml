@@ -8,9 +8,11 @@ spring:
   threads:
     virtual:
       enabled: true
-#  data:
-#    rest:
-#      basePath: '/apex'
+  data:
+    rest:
+      base-path: '/apex'
+      default-page-size: 3
+      max-page-size: 10
 
 server:
   port: 8085
